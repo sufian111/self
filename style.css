@@ -5,6 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray
+    ;
+}
 .one{
     color: orange;
 }
@@ -23,6 +30,7 @@ background-repeat: no-repeat;
 }
 section{
     height: 500px;
+    padding-bottom: 100px;
 }
 .link-button{
     text-decoration: none;
@@ -32,4 +40,35 @@ section{
     color: white;
     font-weight: 700;
 
+}
+.dream{
+    background-image: url("image/dream-bg.png");
+    background-repeat:no-repeat ;
+    background-position: right;
+}
+
+.aaa{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 80%;
+}
+
+.third{
+    background-image: url("image/exp-bg.png");
+background-repeat: no-repeat;
+background-position: left;
+}
+
+#abc{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 1;
+}
+#abcd{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
 }
