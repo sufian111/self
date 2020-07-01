@@ -1,19 +1,18 @@
 body{
     font-family: 'Poppins', sans-serif;
-    margin-left:0;
+    margin: 0px;
+    padding: 0px;
 }
-h1{
-    font-size: 50px;
+.section-top{
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+   height: 876px;
+   padding-top: 230px;
+   margin: 0px;
 }
-h2{
+.name{
+    color:purple;
     font-size: 40px;
-}
-p{
-    color: dimgray
-    ;
-}
-.one{
-    color: orange;
 }
 .half{
     width: 40%;
@@ -22,53 +21,65 @@ p{
     padding-left: 2%;
 }
 .half img{
-    width: 100%;
+    width: 90%;
+  
 }
-.top{
-background-image: url("image/top-banner.png");
-background-repeat: no-repeat;
+.make-middle{
+    padding-top: 170px;
+  padding-left: 100px;
 }
-section{
-    height: 500px;
-    padding-bottom: 100px;
+.section-two{
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    height: 875px;
+    margin-top: -39px;
+
+    padding-top: 150px;
 }
-.link-button{
+
+.button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,lightSalmon, tomato);
-    padding: 10px 20px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700;
+    background-color: orange;
+    padding: 10px 20px;}
 
+    p{
+        color: dimgray
+        ;
 }
-.dream{
-    background-image: url("image/dream-bg.png");
-    background-repeat:no-repeat ;
-    background-position: right;
+.letest{
+    background-image: url(image/aaa.png);
+    background-repeat: no-repeat;
+    height: 876px;
+    padding-left: 150px;
+    padding-top: 250px;
+    margin-top: -200px;
 }
-
-.aaa{
-    box-shadow: 10px 10px 40px gray;
-    border-radius: 10px;
-    height: 80%;
+.footer{
+    background-image: url(image/footer-bg.png);
+    background-repeat: no-repeat;
+    height: 1197px;
+    margin-top: -660px;
 }
-
-.third{
-    background-image: url("image/exp-bg.png");
-background-repeat: no-repeat;
-background-position: left;
+.colum img{
+    float: left;
+    width: 25%;
+    padding-left: 50px;
 }
-
-#abc{
-    border-left: 7px solid;
-    border-image:linear-gradient(180deg,lightSalmon,tomato);
-    border-image-slice: 1;
-}
-#abcd{
-    border-left: 7px solid;
-    border-image:linear-gradient(180deg,blue,cyan);
-    border-image-slice: 1;
-}
-footer{
+.center{
     text-align: center;
+    position: relative;
+    top: 25%;
+}
+.container{
+    width: 600px;
+    height: 100px;
+    margin-left: 400px;
+    background-color: tomato;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 35px;
+    margin-top: 400px;
 }
