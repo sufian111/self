@@ -12,7 +12,7 @@ body{
 }
 .name{
     color:purple;
-    font-size: 40px;
+    font-size: 50px;
 }
 .half{
     width: 40%;
@@ -21,11 +21,11 @@ body{
     padding-left: 2%;
 }
 .half img{
-    width: 90%;
+    width: 100%;
   
 }
 .make-middle{
-    padding-top: 170px;
+    padding-top: 80px;
   padding-left: 100px;
 }
 .section-two{
@@ -36,6 +36,10 @@ body{
 
     padding-top: 150px;
 }
+.make-middle-two{
+    position: relative;
+    top: 30%;
+}
 
 .button{
     text-decoration: none;
@@ -45,6 +49,7 @@ body{
     p{
         color: dimgray
         ;
+        font-size: 20px;
 }
 .letest{
     background-image: url(image/aaa.png);
